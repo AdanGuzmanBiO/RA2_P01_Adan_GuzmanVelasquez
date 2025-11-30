@@ -5,7 +5,7 @@ edat_avatar = input("Indica l'edat del teu avatar: ")       # Demana l'edat de l
 nivell_intelligencia = input("Indica el nivell d'intelligencia del teu avatar: ")               # Demana el nivell d'intelligencia
 nivell_velocitat = input("Indica el nivell de velocitat del teu avatar: ")                      # Demana el nivell de velocitat
 nivell_forca = input("Indica el nivell de força del teu avatar: ")                              # Demana el nivell de força
-mitjana_stats = (int(nivell_intelligencia) + int(nivell_velocitat) + int(nivell_forca)) / 3     # Calcula la mitjana dels stats
+mitjana_stats = (float(nivell_intelligencia) + float(nivell_velocitat) + float(nivell_forca)) / 3     # Calcula la mitjana dels stats
 descripcio_avatar = input("Fes una desctipcio del teu avatar: ")                                # Demana una descripcio de l'avatar
 
 
